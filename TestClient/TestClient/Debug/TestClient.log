@@ -1,0 +1,33 @@
+﻿빌드 시작: 2016-03-23 오전 3:02:22
+     1>2 노드의 "D:\TestClient\TestClient\TestClient.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         D:\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\testclient\testclient\main.cpp(143): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio2013\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
+     1>d:\testclient\testclient\main.cpp(153): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio2013\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
+     1>d:\testclient\testclient\main.cpp(154): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio2013\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>d:\testclient\testclient\main.cpp(156): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio2013\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
+     1>d:\testclient\testclient\main.cpp(163): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\visualstudio2013\vc\include\conio.h(131) : 'getch' 선언을 참조하십시오.
+     1>d:\testclient\testclient\main.cpp(229): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio2013\vc\include\stdio.h(283) : 'scanf' 선언을 참조하십시오.
+     1>d:\testclient\testclient\main.cpp(230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visualstudio2013\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>d:\testclient\testclient\main.cpp(237): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\visualstudio2013\vc\include\conio.h(131) : 'getch' 선언을 참조하십시오.
+     1>d:\testclient\testclient\main.cpp(135): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+     1>d:\testclient\testclient\main.cpp(138): warning C4101: 'eventData' :참조되지 않은 지역 변수입니다.
+     1>d:\testclient\testclient\main.cpp(134): warning C4101: 'buf' :참조되지 않은 지역 변수입니다.
+       Link:
+         D:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TestClient\Debug\TestClient.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\TestClient\Debug\TestClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TestClient\Debug\TestClient.lib" /MACHINE:X86 Debug\main.obj
+         LINK : D:\TestClient\Debug\TestClient.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+         TestClient.vcxproj -> D:\TestClient\Debug\TestClient.exe
+     1>"D:\TestClient\TestClient\TestClient.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.88
